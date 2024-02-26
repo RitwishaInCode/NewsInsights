@@ -8,13 +8,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 import Home from "./components/Home";
 
-console.log(process.env.REACT_APP_NEWS_API);
-
 // export default class App extends Component {
 const App = () => {
   const pageSize = 12;
   const apiKey = process.env.REACT_APP_NEWS_API;
-  console.log(process.env.REACT_APP_NEWS_API);
+  // console.log(process.env.REACT_APP_NEWS_API);
   // const apiKey = "e61a602a6328425aacc5b569fabe6ad3";
 
   // state = {
